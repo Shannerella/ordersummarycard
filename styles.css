@@ -1,0 +1,145 @@
+body {
+    position: relative;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #847ce2;
+}
+
+
+
+.background-card {
+    position: relative;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 55%;
+    background-color: hsl(225, 100%, 94%);
+    width: 80%;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+.card {
+    background-color: white;
+    position: relative;
+    width: 375px;
+    height: 575px;
+    margin: 80px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.order-summary-text {
+    margin-top: 30px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-summary-text p {
+    font-size: smaller;
+}
+
+.bold {
+    font-weight: 900;
+    color: black;
+}
+
+.music-icon {
+    float: left;
+    height: 15%;
+    width: 15%;
+    margin: auto;
+    margin-right: 15px;
+}
+
+.ordered-products {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.change {
+    position: relative;
+    float: right;
+    margin-top: -20px;
+    line-height: 0.5;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+
+.btn {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: 'Red Hat Display', sans-serif;
+   width: 250px;
+   font-size: 12px;
+   font-weight: 800;
+   padding: 20px;
+   background-color: #382AE1;
+   -webkit-box-shadow: 1px 20px 10px 0 #E0DDFA;
+   -moz-box-shadow: 1px 20px 10px 0 #E0DDFA;
+   box-shadow: 1px 20px 10px 0 #E0DDFA;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 30px;
+}
+
+.btn:hover {
+   background: #766CF1;
+   border: solid #766CF1 0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.cancel {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.cancel:hover {
+    color: #43495b;
+}
+
