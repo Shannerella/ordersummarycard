@@ -100,37 +100,37 @@ a:hover {
 
 
 .btn {
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
-   height: 0;
-   line-height: 0;
-   color: #FFFFFF;
-   font-family: 'Red Hat Display', sans-serif;
-   width: 250px;
-   font-size: 12px;
-   font-weight: 800;
-   padding: 20px;
-   background-color: #382AE1;
-   -webkit-box-shadow: 1px 20px 10px 0 #E0DDFA;
-   -moz-box-shadow: 1px 20px 10px 0 #E0DDFA;
-   box-shadow: 1px 20px 10px 0 #E0DDFA;
-   text-shadow: 1px 1px 20px #000000;
-   border: solid #337FED 0;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-   margin-top: 30px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+height: 0;
+line-height: 0;
+color: #FFFFFF;
+font-family: 'Red Hat Display', sans-serif;
+width: 250px;
+font-size: 12px;
+font-weight: 800;
+padding: 20px;
+background-color: #382AE1;
+-webkit-box-shadow: 1px 20px 10px 0 #E0DDFA;
+-moz-box-shadow: 1px 20px 10px 0 #E0DDFA;
+box-shadow: 1px 20px 10px 0 #E0DDFA;
+text-shadow: 1px 1px 20px #000000;
+border: solid #337FED 0;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+margin-top: 30px;
 }
 
 .btn:hover {
-   background: #766CF1;
-   border: solid #766CF1 0;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   border-radius: 10px;
-   text-decoration: none;
+background: #766CF1;
+border: solid #766CF1 0;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 10px;
+text-decoration: none;
 }
 
 .cancel {
@@ -143,3 +143,9 @@ a:hover {
     color: #43495b;
 }
 
+@media (max-width: 500px) {
+    .background-card {
+        width: 100%;
+    }
+    
+}
